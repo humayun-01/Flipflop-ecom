@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping website</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--navbar  here-->
+    <header>
+      <nav class="navbar flex container">
+        <a href="#" class="logo"> Flip<span>flop.</span> </a>
+
+        <ul class="navlist flex">
+          <li><a href="#" class="link link-active">home</a></li>
+
+          <li><a href="#" class="link">shop</a></li>
+
+          <li><a href="#" class="link">page</a></li>
+
+          <li><a href="#" class="link">blog</a></li>
+
+          <li><a href="#" class="link">contact</a></li>
+
+          <li class="nav-icons flex">
+            <a href="#" class="icons">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </a>
+
+            <a href="#" class="icons"><i class="fa-solid fa-user"></i> </a>
+
+            <a href="#" class="icons icon-active">
+              <i class="fa-solid fa-shopping-bag"></i>
+            </a>
+          </li>
+        </ul>
+        <a href="#" class="hamburger">
+          <i class="fa-solid fa-bars"></i>
+        </a>
+      </nav>
+    </header>
+
+    <!--section here-->
+
+    <main>
+      <section class="hero">
+        <div class="hero-content flex container">
+          <div>
+            <h3>Summer Fashion</h3>
+            <h1>New Collection</h1>
+            <h4>Big Sale of this Week up to <span>30%</span></h4>
+            <button>Shop Now!</button>
+          </div>
+        </div>
+      </section>
+
+      <!--section-material-->
+      <section class="section">
+        <div class="category-container container">
+          <div class="category">
+            <img src="image/for men.jpg" />
+            <button>FOR MEN'S</button>
+          </div>
+
+          <div class="category">
+            <img src="image/for kids.jpg" />
+            <button>FOR Kids</button>
+          </div>
+
+          <div class="category">
+            <img src="image/for accessories.jpg" />
+            <button>Accesories</button>
+          </div>
+
+          <div class="category">
+            <img src="image/hijab.jpg" />
+            <button>FOR WOMEN'S</button>
+          </div>
+        </div>
+      </section>
+      <!--NEW product CONTAINER-->
+
+      <section class="section">
+        <div class="container">
+          <h2>New Product</h2>
+          <div class="line"></div>
+
+          <div class="card-container flex">
+            <div class="card">
+              <img src="/project/image/card-image1.jpg" />
+              <div class="card-content">
+                <p class="title">Sport Shoes</p>
+                <div class="price">
+                  <span class="amount">$100.00</span>
+                </div>
+                <button class="add-to-cart">Add-to-Cart</button>
+              </div>
+            </div>
+
+            <div class="card Sale">
+              <img src="/project/image/card-image2.jpg" />
+              <div class="card-content">
+                <p class="title">Leather Black Handbag Out Edition</p>
+                <div class="price">
+                  <del>$150.00</del>
+                  <span class="amount">$100.00</span>
+                </div>
+                <button class="add-to-cart">Add-to-Cart</button>
+              </div>
+            </div>
+
+            <div class="card New">
+              <img src="/project/image/card-image3.jpg" />
+              <div class="card-content">
+                <p class="title">Leather Coat</p>
+                <div class="price">
+                  <span class="amount">$100.00</span>
+                </div>
+                <button class="add-to-cart">Add-to-Cart</button>
+              </div>
+            </div>
+
+            <div class="card New">
+              <img src="/project/image/card-image4.jpg" />
+              <div class="card-content">
+                <p class="title">Leather Black Coat</p>
+                <div class="price">
+                  <span class="amount">$100.00</span>
+                </div>
+                <button class="add-to-cart">Add-to-Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
